@@ -31,6 +31,6 @@ class BitkeepConnector extends InjectedConnector {
       if (ethereum?.providers) return ethereum.providers.find(this.getReady);
       return this.getReady(ethereum);
     }
-  }
+}
 
-  export default BitkeepConnector
+export default BitkeepConnector
